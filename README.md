@@ -1,11 +1,11 @@
 # MechaCar Statistical Analysis
 ## Overview of Analysis
 
-### In this analysis we wi
+### In this analysis we will be trying to help the manufacturing team for MechaCar during a time of production troubles.
 
 ## Linear Regression to Predict MPG
 
-### Looking at the linear regression model and summary for the MechaCars dataset there are several things we can tell several things...
+### In order to determine whether ceratin vehicle metrics effected, and can help us predict, the fuel efficiency(mpg) of the MechaCar we created a linear regression model. Looking at the linear regression model and summary for the MechaCars dataset shows us there are metrics that effect the mpg.
 ![Linear Regression](LinearRegressionMPG.png)
  - The variables/coefficients that provided a non-random amount of variance and signifigant impact on mpg were "Vehicle Length" and "Ground Clearance".
  - Looking at the p-values for the signifigant variables we can see that they are both below the signifigance level of .05. This means that the slope of the linear model is not zero and we can reject our null hypothesis.
